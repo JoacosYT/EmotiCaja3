@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Emoticaja: un espacio creativo para conocer, identificar y expresar tus emociones.">
+  <meta name="theme-color" content="#fff1f5">
+  <title>Emoticaja | Conoce y expresa tus emociones</title>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="#inicio" aria-label="Emoticaja, inicio"><span class="brand-mark" aria-hidden="true">♡</span> Emoticaja</a>
+      <button class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="nav-links">Menú ☰</button>
+      <nav class="links" id="nav-links" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a><a href="#nosotros">Nosotros</a><a href="#emociones">Emociones</a><a href="#beneficios">Beneficios</a><a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+<link rel="stylesheet" href="css.css">
+  <main>
+    <section class="hero" id="inicio">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="eyebrow">Un espacio para sentir y aprender</span>
+          <h1>¡Dale un lugar a tus <span>emociones!</span></h1>
+          <p>En Emoticaja creemos que todas las emociones tienen algo que decir. Explora, identifica y aprende a expresar lo que sientes de una manera creativa y positiva.</p>
+          <div class="actions"><a class="btn primary" href="#emociones">Explorar emociones</a><a class="btn secondary" href="#nosotros">Conoce Emoticaja</a></div>
+        </div>
+        <div class="hero-art" aria-label="Ilustración decorativa de un corazón y emociones">
+          <div class="emotion-orbit"><span class="big-heart">💗</span><span class="bubble b1">¡Exprésate! ✨</span><span class="bubble b2">Está bien sentir 💛</span><span class="bubble b3">Conócete 🌱</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="nosotros">
+      <div class="wrap">
+        <div class="section-head"><h2>¿Qué es Emoticaja?</h2><p>Un proyecto que busca acercar el mundo de las emociones a través de recursos visuales, actividades y experiencias sencillas.</p></div>
+        <div class="about-grid">
+          <article class="info-card"><div class="info-icon pink-bg">💗</div><h3>Nuestra esencia</h3><p>Promover el reconocimiento y la expresión emocional en un ambiente amable, seguro y sin juicios.</p></article>
+          <article class="info-card"><div class="info-icon yellow-bg">🌟</div><h3>Nuestro propósito</h3><p>Compartir herramientas que ayuden a comprender lo que sentimos y comunicarlo de forma saludable.</p></article>
+          <article class="info-card"><div class="info-icon green-bg">🌱</div><h3>Nuestra idea</h3><p>Aprender sobre emociones puede ser una experiencia cercana, divertida, creativa y significativa.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="emotions" id="emociones">
+      <div class="wrap">
+        <div class="section-head"><h2>Conoce tus emociones</h2><p>Cada emoción cumple una función. Busca una y descubre una breve descripción.</p></div>
+        <div class="search-wrap"><input id="emotion-search" type="search" placeholder="Buscar una emoción..." aria-label="Buscar una emoción"></div>
+        <div class="emotion-grid" id="emotion-grid">
+          <article class="emotion-card" data-name="alegría"><span class="face">😊</span><h3>Alegría</h3><p>Puede aparecer cuando vivimos algo agradable o significativo.</p></article>
+          <article class="emotion-card" data-name="tristeza"><span class="face">😢</span><h3>Tristeza</h3><p>Nos ayuda a reconocer pérdidas, necesidades y momentos difíciles.</p></article>
+          <article class="emotion-card" data-name="enojo"><span class="face">😠</span><h3>Enojo</h3><p>Puede señalar que algo nos incomoda o que necesitamos poner límites.</p></article>
+          <article class="emotion-card" data-name="miedo"><span class="face">😨</span><h3>Miedo</h3><p>Nos alerta ante situaciones que percibimos como amenazantes.</p></article>
+          <article class="emotion-card" data-name="sorpresa"><span class="face">😮</span><h3>Sorpresa</h3><p>Surge ante algo inesperado y nos prepara para responder.</p></article>
+          <article class="emotion-card" data-name="calma"><span class="face">😌</span><h3>Calma</h3><p>Se relaciona con una sensación de tranquilidad y seguridad.</p></article>
+          <article class="emotion-card" data-name="asco"><span class="face">🤢</span><h3>Asco</h3><p>Nos ayuda a alejarnos de aquello que percibimos como desagradable.</p></article>
+          <article class="emotion-card" data-name="vergüenza"><span class="face">😳</span><h3>Vergüenza</h3><p>Puede aparecer cuando sentimos que estamos siendo evaluados.</p></article>
+        </div>
+        <p id="no-results" class="note" style="text-align:center;display:none">No encontramos esa emoción. Prueba con otra palabra.</p>
+      </div>
+    </section>
+
+    <section id="beneficios">
+      <div class="wrap benefits-grid">
+        <div class="benefit-panel">
+          <h3>¿Por qué es importante reconocer lo que sentimos?</h3>
+          <ul class="benefit-list">
+            <li><span class="check">✓</span><span>Favorece el autoconocimiento y la identificación de necesidades.</span></li>
+            <li><span class="check">✓</span><span>Ayuda a comunicar sentimientos de manera clara y respetuosa.</span></li>
+            <li><span class="check">✓</span><span>Puede apoyar la convivencia y las relaciones con otras personas.</span></li>
+            <li><span class="check">✓</span><span>Permite buscar estrategias saludables para afrontar momentos difíciles.</span></li>
+          </ul>
+        </div>
+        <div class="quote"><div class="symbol">🌈</div><p>“No existen emociones buenas o malas: todas nos ofrecen información sobre lo que vivimos”.</p><span>— Emoticaja</span></div>
+      </div>
+    </section>
+
+    <section class="contact" id="contacto">
+      <div class="wrap contact-grid">
+        <div class="contact-copy"><span class="eyebrow">Estamos para escucharte</span><h2>¡Ponte en contacto!</h2><p>¿Tienes alguna duda, comentario o sugerencia sobre Emoticaja? Escríbenos mediante el formulario.</p><p>También puedes agregar aquí tus redes sociales oficiales para que las personas encuentren el proyecto.</p></div>
+        <form class="contact-form" id="contact-form">
+          <div class="field"><label for="name">Nombre</label><input id="name" name="name" autocomplete="name" required placeholder="Escribe tu nombre"></div>
+          <div class="field"><label for="email">Correo electrónico</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="tunombre@correo.com"></div>
+          <div class="field"><label for="message">Mensaje</label><textarea id="message" name="message" required placeholder="Cuéntanos cómo podemos ayudarte..."></textarea></div>
+          <button class="btn primary" type="submit">Preparar mensaje</button>
+          <p class="note">Este formulario abre tu aplicación de correo para enviar el mensaje. Sustituye el correo de ejemplo en el código por el correo oficial del proyecto.</p>
+          <p id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-row">
+      <div><strong style="font-size:1.3rem">♡ Emoticaja</strong><br><small>Un espacio para conocer y expresar tus emociones.</small></div>
+      <nav class="footer-links" aria-label="Redes sociales"><a href="#" aria-label="Instagram (agrega el enlace oficial)">Instagram</a><a href="#" aria-label="Facebook (agrega el enlace oficial)">Facebook</a><a href="#" aria-label="TikTok (agrega el enlace oficial)">TikTok</a></nav>
+      <small>© <span id="year"></span> Emoticaja. Todos los derechos reservados.</small>
+    </div>
+  </footer>
+  <script src="js.js"></script>
+</body>
+</html>
